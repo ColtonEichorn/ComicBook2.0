@@ -1,0 +1,38 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #2d3436;
+}
+
+.login__logo > h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #d63031;
+    font-size: 100px;
+}
+
+.login > button {
+    width: 300px;
+    background-color: #d63031;
+    color: #eff2f5;
+    font-weight: 800;
+    position: relative;
+    top: -20vh;
+}
+
+.login > button:hover {
+    background-color: white;
+    color: #d63031;
+}
+
+.login > div > img {
+    object-fit: contain;
+    height: 150px;
+    width: 512px;
+}
+
+.login > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
